@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package blockchain;
+
+service BlockchainService {
+  rpc Test (Empty) returns (Empty) {}
+}
+
+message Empty {}
